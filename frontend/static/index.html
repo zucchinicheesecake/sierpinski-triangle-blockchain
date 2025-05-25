@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Władysłaium Mining Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-900 text-white">
+    <div id="root">
+        <div class="container mx-auto px-4 py-8">
+            <h1 class="text-4xl font-bold mb-8">Władysłaium Mining Dashboard</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h2 class="text-xl font-semibold mb-4">Mining Status</h2>
+                    <p class="text-green-400">Active</p>
+                    <p class="mt-2">Current Node: node1</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h2 class="text-xl font-semibold mb-4">Token Balance</h2>
+                    <p class="text-2xl font-bold" id="token-balance">Loading...</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h2 class="text-xl font-semibold mb-4">Mining Stats</h2>
+                    <p id="blocks-mined">Blocks Mined: Loading...</p>
+                    <p id="current-difficulty">Current Difficulty: 4</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
