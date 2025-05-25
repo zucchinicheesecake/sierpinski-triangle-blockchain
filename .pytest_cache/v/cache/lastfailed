@@ -1,0 +1,7 @@
+{
+  "project_archive/sierpinski_triangle_blockchain/tests/test_fractal_consensus.py": true,
+  "project_archive/sierpinski_triangle_blockchain/tests/test_sierpinski_miner.py": true,
+  "project_archive/sierpinski_triangle_blockchain/tests/test_triangle_validator.py": true,
+  "project_archive/sierpinski_triangle_blockchain/tests/test_wallet.py": true,
+  "project_archive/sierpinski_triangle_blockchain/tests/test_wladyslaium_token.py": true
+}
